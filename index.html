@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Assets/css/styles.css">
+  <title>Code Quiz</title>
+</head>
+<body>
+  <nav>
+    <a href="/homework-4/highScores/" id="highScores">View High Scores</a>
+    <div id="timer"></div>
+  </nav>
+  <div class="quiz start">
+    <h1>Welcome to the Code Quiz</h1>
+    <p>You have 30 seconds to complete this quiz</p>
+    <button>Start Quiz</button>
+  </div>
+  <div class="quiz container">
+    <div class="questions-container">
+      <div id="question">This is a test Question?</div>
+      <div id="question-buttons">
+        <button class="answer">Option 2fbvweiyhfbiewu</button>
+        <button class="answer">Option 1</button>
+        <button class="answer">Option 3</button>
+        <button class="answer">Option 4</button>
+      </div>
+    </div>
+    <div class="result"></div>
+  </div>
+  <div class="quiz end">
+    <h1>All Done!</h1>
+    <p>Your score was: 22</p>
+    <form>
+      <label for="userInitials">Enter initials:</label>
+      <input name="userInitials" id="userInitials" placeholder="Name" type="text">
+      <button>Submit</button>
+    </form>
+  </div>
+  <script src="./Assets/js/questions.js"></script>
+  <script src="./Assets/js/index.js"></script>
+</body>
+</html>
